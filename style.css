@@ -1,0 +1,41 @@
+.main{
+    margin: 0% auto;
+    width: 50%;
+    height: 500px;
+    background-color: black;
+    border-radius: 20px;
+    border: solid 5px cornflowerblue;
+}
+/* .pic{
+    background-image: url("./calculator.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+} */
+label{
+    font-weight:bolder ;
+    font-size: 20px;
+}
+h1{ text-align: center;
+    color: bisque;
+    background-color: black;
+}
+.form{
+    width: 50%;
+    height: 350px;
+    background-color: bisque;
+    text-align: center;
+    margin-left: 25%;
+}
+.form>form>button{
+    margin: 20px;
+    color: bisque;
+    background-color: black;
+}
+form>button:hover{
+    transition-duration:1s ;
+    background-color: bisque;
+    border: 2px solid black;
+    color: black;
+}
